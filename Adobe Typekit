@@ -1,0 +1,11 @@
+/*** Place your Typekit embeded code between <head> tags ***/
+
+/*** Then edit your style.css file to specify how the new fonts should be displayed, here's an example ***/
+
+h1, h2 {
+font-family: 'chaparral-pro', serif;
+}
+
+body {
+font-family: 'open sans', sans-serif;
+}
