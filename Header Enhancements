@@ -1,0 +1,14 @@
+/ *** Fullwidth Header Edge to Edge on Mobile ***/
+
+@media only screen and (max-width: 767px) {
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container .header-content a.et_pb_button {
+margin-left: 10px;
+margin-right: 10px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+width: 98%;
+max-width: 800px;
+}
