@@ -5,3 +5,12 @@
 width: 90%; /*** you might need !important ***/
 }
 }
+
+
+/*** MAKE SLIDER WIDER ON SMALLER SCREENS ***/
+
+@media only screen and (max-width: 980px) {
+.et_pb_slide_description {
+    padding: 0 !important;
+}
+}
