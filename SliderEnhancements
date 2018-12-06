@@ -1,0 +1,37 @@
+/*** Side Button ***/
+
+.custom-slider .et-pb-arrow-prev {
+color: #0ab2a4 !important;
+}
+.custom-slider .et-pb-arrow-next {
+color: #0ab2a4 !important;
+}
+
+/*** Slide Controllers ***/
+
+.custom-slider .et-pb-controllers {
+color: #0ab2a4 !important;
+}
+.custom-slider .et-pb-controllers {
+color: #0ab2a4 !important;
+}
+
+
+/*** Slide Active Controller ***/ 
+
+.custom-slider ..custom-slider .et-pb-controllers {
+color: #0ab2a4 !important;
+}
+.custom-slider ..custom-slider .et-pb-controllers {
+color: #0ab2a4 !important;
+}
+
+
+/*** Slide Arrows ***/
+
+.custom-slider .et-pb-arrow-prev {
+color: #0ab2a4 !important;
+}
+.custom-slider .et-pb-arrow-next {
+color: #0ab2a4 !important;
+}
