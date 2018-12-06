@@ -1,0 +1,71 @@
+/*** HTML ***/
+
+<div class="imagehoverbox-container"><img src="https://placehold.it/1200x763" class="imagehoverbox-image">
+    <div class="imagehoverbox-overlay">
+        <div class="imagehoverbox-text"><a href="http://example.com/">Shop Glasses</a></div>
+    </div>
+</div>
+
+
+/*** CSS ***/
+
+/********************************************/
+/*** CUSTOM IMAGE HOVER BOXES WITH BUTTON ***/
+/********************************************/
+ .imagehoverbox-container {
+     position: relative;
+     width: 100%;
+}
+ .imagehoverbox-image {
+     display: block;
+     width: 100%;
+     height: auto;
+}
+ .imagehoverbox-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     -moz-transition: all 0.2s;
+     -webkit-transition: all 0.2s;
+     transition: all 0.2s;
+     background-image: url("https://filedn.com/ljRP1fGUfVWQzMGyVol4YoR/fade-hover-hearts.png"); /* this is the image that shows on hover replace with yours */
+     background-size: cover;
+}
+ .imagehoverbox-container:hover .imagehoverbox-overlay {
+     opacity: 1;
+}
+ .imagehoverbox-text {
+     position: absolute;
+     top: 50%; /* this controls how high/low the button sits */
+     left: 10%;
+     /* if you want your button centered use this instead and delete left 10% line
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%); */
+     cursor: pointer;
+     background: #ed04c6; /* background button color */
+     padding: .6em 1em .7em;
+     border-radius: 3px; /* button rounded edges */
+     font-size: 1.2em;
+     font-family: inherit; /* will use body font but you can change font here if you prefer */
+     font-weight: bold;
+     line-height: 1em;
+}
+ .imagehoverbox-text a {
+     color: #222; /* button text color */
+}
+ .imagehoverbox-text:hover {
+     background: #e8e81e; /* background button color on hover */
+}
+/*** Make text smaller and everything visible on smaller screens for touchscreens ***/
+@media only screen and (max-width: 980px) {
+	.imagehoverbox-overlay {
+		opacity: 1;
+	}
+	 .imagehoverbox-text {
+	    font-size: 1em;
+	}
+}
