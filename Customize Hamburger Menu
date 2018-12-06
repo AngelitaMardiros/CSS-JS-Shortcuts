@@ -1,0 +1,4 @@
+***** Increase Hamburger Menu Size ****/
+
+span.mobile_menu_bar:before { font-size: 65px !important; padding-right: 20px
+}
