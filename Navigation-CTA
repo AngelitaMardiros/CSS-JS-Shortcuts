@@ -1,0 +1,30 @@
+/************** NAVIGATION   ***************/
+/***** in this case .menu-cta is the assigned class ****/
+
+/* style the cta menu button */
+.menu-cta {border-radius: 0px;}
+.menu-cta a {color: #fff!important;}
+li.menu-cta {
+   background-color:#A6D168; 
+   font-weight: 700; 
+   text-transform: uppercase; 
+   text-align: center; 
+   padding: 12px 13px 10px 10px!important;
+   border-radius: 3px;
+                
+  -moz-transition: all 0.5s; 
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;}
+  
+li.menu-cta:hover {background-color:#D54B65;
+font-weight: 700;}
+ 
+
+/* fixed header button text color */
+
+.et-fixed-header #top-menu .menu-cta a {
+  color: #ffffff!important;}
+  .menu-cta li.current-menu-ancestor > a, .menu-cta li.current-menu-item > a {
+color: #ffffff !important;}
+ 
+ 
